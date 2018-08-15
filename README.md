@@ -60,4 +60,5 @@ To synchronize Flask database with the data from the HIS. Schema and sample data
     4. open browser > 127.0.0.1:5000/sync [If above steps works fine you will get synchorization interface]
 
 
-## Comments: No policy was taken to change in HIS side. This given codes have been built only for quick challenge accomplishment but not for real life production version. It needs more work to make it more efficient in production version.
+## Comments: 
+No policy was taken to change in HIS side. This given codes have been built only for quick challenge accomplishment but not for real life production version. It needs more work to make it more efficient in production version.
