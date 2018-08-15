@@ -1,19 +1,14 @@
-Objective:
+## Objective:
 
-__NOTE 0__.
-Your job is to synchronize our Flask database with the data from the HIS. Schema and sample data will be provided below....
+To synchronize Flask database with the data from the HIS. Schema and sample data will be provided below....
 
-__Feedback__.
-  * Goal accomplished
-
-Assumption:
+## Assumption:
     * no changes can be made on the HIS side
     * HIS db server could be accessable thought internet
     * HIS side has no API to fetch the records but SQL query is applicable
     * HIS side db is SQLAlchemy compatible like Postgres/MySql/Sqlite. In this exmaple another Postgres instance was used
 
-Setup:
-
+## Setup:
   * Project Directory: his_sync
   * Docker: docker folder
   * Flask app: app.py
@@ -37,7 +32,7 @@ Setup:
       └── templates
           └── home.html
 
-  Docker:
+  ## Docker:
     * Please follow below steps 
 
       1. pgdb >> Flask app db:
@@ -65,5 +60,4 @@ Setup:
     4. open browser > 127.0.0.1:5000/sync [If above steps works fine you will get synchorization interface]
 
 
-Comments:
-  __NOTE 1__.: No policy was taken to change in HIS side. This given codes have been built only for quick challenge accomplishment but not for real life production version. It needs more work to make it more efficient in production version.
+## Comments: No policy was taken to change in HIS side. This given codes have been built only for quick challenge accomplishment but not for real life production version. It needs more work to make it more efficient in production version.
